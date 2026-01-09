@@ -1,16 +1,57 @@
 h1{
-    color: #e26779;
+    color: #0f1113;
 }
 body{
-    background-color: #e66e80;
+    background-color: #e9c7e9;
 }
 #encabezado{
-    background-color: rgb(128, 240, 240);
+    background-color: rgb(133, 222, 238);
     height: 150px;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: #9a4bb3;
+    box-shadow: 10px 10px 5px rgb(37, 37, 37);
+    display: flex;
     
+}
+.logo {
+    background-color: rgb(125, 235, 131);
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.menu {
+    background-color: hsl(239, 78%, 60%);
+    width: 65%;
+    list-style: none;
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(162, 238, 147);
+
+}
+.menu ul li{
+    margin: 0;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.menu ul li a:hover{
+    background-color: rgb(106, 230, 81);
+    padding: 15px 20px;
+}
+.redes{
+    background-color: coral;
+    width: 20%;
 }
