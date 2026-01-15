@@ -185,6 +185,29 @@ button {
 button:hover {
     background-color: #5DA9E9;
 }
+.card {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+}
+.contenido-grande {
+    width: 70%;
+    text-align: center;
+}
 
 
 /* ====== GENERAL ====== 
