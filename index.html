@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,88 +9,116 @@
 </head>
 <body>
 
-    <!-- ENCABEZADO -->
-    <div id="encabezado">
+```
+<!-- =======================
+     ENCABEZADO
+======================= -->
+<div id="encabezado">
 
-        <div class="logo">
-            <img src="IMAGES/LOGOS-CARRERAS-TI.png" alt="Logo">
-        </div>
-
-        <div class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Carreras</a></li>
-                <li><a href="#">Galería</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Campus Virtual</a></li>
-            </ul>
-        </div>
-
-        <div class="redes">
-            <a href="#"><img src="IMAGES/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="IMAGES/whatsapp.png" alt="WhatsApp"></a>
-            <a href="#"><img src="IMAGES/youtube.png" alt="Youtube"></a>
-            <a href="#"><img src="IMAGES/linkedin.png" alt="LinkedIn"></a>
-            <a href="#"><img src="IMAGES/gmail.png" alt="Gmail"></a>
-        </div>
-
+    <div class="logo">
+        <img src="IMAGES/LOGOS-CARRERAS-TI.png" alt="Logo">
     </div>
 
-    <div class="cards">
-     <div class="card">
-         <img src="IMAGES/programacion.jpg" alt="Programación">
-         <h3>Programación</h3>
-         <p>Desarrollo de software y aplicaciones web.</p>
-     </div>
-
-     <div class="card">
-         <img src="IMAGES/redes.png" alt="Redes">
-         <h3>Redes</h3>
-         <p>Administración y diseño de redes computacionales.</p>
-     </div>
-
-     <div class="card">
-         <img src="IMAGES/seguridad.jpg" alt="Ciberseguridad">
-         <h3>Ciberseguridad</h3>
-         <p>Protección de sistemas y datos digitales.</p>
-     </div>
-  </div>
-
-
-    <div class="seccion-grande">
-     <div class="contenido-grande">
-         <h2>Sobre Nosotros</h2>
-         <p>
-             Somos una institución enfocada en la formación de profesionales
-             en Tecnologías de la Información, comprometidos con la innovación
-             y el desarrollo tecnológico.
-         </p>
-     </div>
- </div>
-
-    <div class="seccion-grande">
-        Sección
+    <div class="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Carreras</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Campus Virtual</a></li>
+        </ul>
     </div>
 
+    <div class="redes">
+        <a href="#"><img src="IMAGES/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="IMAGES/whatsapp.png" alt="WhatsApp"></a>
+        <a href="#"><img src="IMAGES/youtube.png" alt="Youtube"></a>
+        <a href="#"><img src="IMAGES/linkedin.png" alt="LinkedIn"></a>
+        <a href="#"><img src="IMAGES/gmail.png" alt="Gmail"></a>
+        <a href="#"><img src="IMAGES/tik-tok.png" alt="TikTok"></a>
+        <a href="#"><img src="IMAGES/tiwtter.png" alt="Twitter"></a>
+    </div>
+
+</div>
+
+<!-- =======================
+     CARDS PRINCIPALES
+======================= -->
+<div class="cards">
+
+    <div class="card">
+        <img src="IMAGES/programacion.jpg" alt="Programación">
+        <h3>Programación</h3>
+        <p>Desarrollo de software y aplicaciones web.</p>
+    </div>
+
+    <div class="card">
+        <img src="IMAGES/redes.png" alt="Redes">
+        <h3>Redes</h3>
+        <p>Administración y diseño de redes computacionales.</p>
+    </div>
+
+    <div class="card">
+        <img src="IMAGES/seguridad.jpg" alt="Ciberseguridad">
+        <h3>Ciberseguridad</h3>
+        <p>Protección de sistemas y datos digitales.</p>
+    </div>
+
+</div>
+
+<!-- =======================
+     SOBRE NOSOTROS
+======================= -->
+<div class="seccion-grande">
+    <div class="contenido-grande">
+        <h2>Sobre Nosotros</h2>
+        <p>
+            Somos una institución enfocada en la formación de profesionales
+            en Tecnologías de la Información, comprometidos con la innovación,
+            el desarrollo tecnológico y la transformación digital.
+        </p>
+    </div>
+</div>
+
+<!-- =======================
+     OTRA SECCIÓN
+======================= -->
+<div class="seccion-grande">
+    <div class="contenido-grande">
+        <h2>Nuestras Secciones</h2>
+        <p>
+            Contamos con áreas académicas, laboratorios especializados,
+            proyectos estudiantiles y vinculación con el sector productivo.
+        </p>
+    </div>
+</div>
+
+<!-- =======================
+     DIRECCIÓN Y CONTACTO
+======================= -->
+<div class="footer">
     <div class="pie">📍 Dirección: Campus Principal</div>
-   <div class="pie">📞 Contacto: 222 123 4567</div>
+    <div class="pie">📞 Contacto: 222 123 4567</div>
+</div>
 
+<!-- =======================
+     BOTONES (JavaScript)
+======================= -->
+<div class="panel-botones">
+    <button onclick="saludar()">Saludar</button>
+    <button onclick="suma()">Suma</button>
+    <button onclick="resta()">Resta</button>
+    <button onclick="multiplicacion()">Multiplicación</button>
+    <button onclick="division()">División</button>
+</div>
 
-    <!-- BOTONES (JavaScript) -->
-    <div style="text-align:center; margin: 20px;">
-        <button onclick="saludar()">Saludar</button>
-        <button onclick="suma()">Suma</button>
-        <button onclick="resta()">Resta</button>
-        <button onclick="multiplicacion()">Multiplicación</button>
-        <button onclick="division()">División</button>
-    </div>
-
-    <!-- SCRIPT -->
-    <script src="JS/funciones.js"></script>
+<!-- SCRIPT -->
+<script src="JS/funciones.js"></script>
+```
 
 </body>
 </html>
